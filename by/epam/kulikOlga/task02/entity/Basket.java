@@ -35,9 +35,9 @@ public class Basket {
 
     public double countTotalWeight(ArrayList<Ball> balls) {
         for (Ball ball : balls) {
-            weight += ball.getWeight();
+            this.weight += ball.getWeight();
         }
-        return weight;
+        return this.weight;
     }
 
     public int countBlueBalls() {
